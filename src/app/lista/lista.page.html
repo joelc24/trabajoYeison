@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>lista</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>
+      Recent Conversations
+    </ion-list-header>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="../../assets/img/avatar-finn.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{ lista.persona1 }}</h2>
+        <h3>soy la persona {{ lista.index[0] }}</h3>
+        <p>{{ lista.descripcion }}</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="../../assets/img/avatar-han.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{ lista.persona2 }}</h2>
+        <h3>soy la persona {{ lista.index[1] }}</h3>
+        <p>{{ lista.descripcion }}</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="../../assets/img/avatar-rey.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{ lista.persona3 }}</h2>
+        <h3>soy la persona {{ lista.index[2] }}</h3>
+        <p>{{ lista.descripcion }}</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="../../assets/img/avatar-luke.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{ lista.persona4 }}</h2>
+        <h3>soy la persona {{ lista.index[3] }} </h3>
+        <p>{{ lista.descripcion }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

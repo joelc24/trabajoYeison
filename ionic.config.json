@@ -1,0 +1,7 @@
+{
+  "name": "elSonyei",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
